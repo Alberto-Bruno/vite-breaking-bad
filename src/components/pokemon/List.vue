@@ -20,10 +20,8 @@ export default {
 </script>
 
 <template>
-
-    <div class="row g-4 row-cols-2 row-cols-md-3 mx-4">
+    <div class="row row-cols-md row-cols-5 mx-5">
         <card v-for="poke in pokemon" :key="poke.id" class="" :name="poke.name" :image="poke.imageUrl"
             :type="poke.type1" :color="poke.color"> </card>
     </div>
-
 </template>
