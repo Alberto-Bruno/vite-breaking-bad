@@ -6,13 +6,13 @@ export default {
 </script>
 
 <template>
-    <main class="container m-5 text-center overflow-auto">
+    <main class="container-fluid m-4 text-center overflow-auto">
         <List></List>
     </main>
 </template>
 
 <style lang="scss">
 main {
-    height: 500px;
+    height: 700px;
 }
 </style>

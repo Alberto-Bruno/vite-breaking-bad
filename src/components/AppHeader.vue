@@ -8,7 +8,6 @@ export default {
     <header>
 
     </header>
-
 </template>
 
 <style lang="scss">

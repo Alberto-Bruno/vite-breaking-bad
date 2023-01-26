@@ -12,11 +12,11 @@ export default {
 
 <template>
     <div class="card-table">
-        <img class="shadow-lg" :src="image" :alt="name">
+        <img :src="image" :alt="name">
         <div class="type-neme-color">
-            <h4> Name: {{ name }}</h4>
-            <h4>Tipo: {{ type }}</h4>
-            <h4>Color: {{ color }}</h4>
+            <h5> Name: {{ name }}</h5>
+            <h5>Tipo: {{ type }}</h5>
+            <h5>Color: {{ color }}</h5>
         </div>
 
     </div>
@@ -25,16 +25,12 @@ export default {
 
 <style scoped lang="scss">
 .card-table {
-    margin-top: 30px;
-    border-radius: 20px;
+    margin-top: 100px;
+    border-radius: 15px;
 
     &:hover {
-        cursor: url('../../assets/img/Pokeball.png'), ("https: //freesvg.org/img/Pokeball.png"),
-            default;
-        cursor: url("https: //freesvg.org/img/Pokeball.png"), auto;
-        ;
         filter: grayscale(1);
-        box-shadow: 6px 3pz gray;
+        box-shadow: 0 0 4px 4px gray;
     }
 
     .type-name-color {
